@@ -1,15 +1,15 @@
 # pid_control
 
 ---
-## Table of Content
-**1. Project Overview**
-**2. Dependencies**
-**3. Basic Build Instructions**
-**4. Editor Settings**
-**5. Code Style**
-**6. Project Instructions and Rubric**
-**7. The PID Components**
-**8. Hyperparameters
+# Table of Content
+## **1. Project Overview**
+## **2. Dependencies**
+## **3. Basic Build Instructions**
+## **4. Editor Settings**
+## **5. Code Style**
+## **6. Project Instructions and Rubric**
+## **7. The PID Components**
+## **8. Hyperparameters**
 
 ## 1. Project Overview
 
@@ -84,11 +84,11 @@ for instructions and the project rubric.
 ## The PID Components
 In this project I am using proportional, integral and differential control
 
-**Proportional or P Control:** The P component is the proportional gain constant and defines the period and magnituted of the step response, it steer the car proportional to the CTE and help us to minimize the error between CTE and the Steer Value is determined by the constant Kp.
+**Proportional or P Control:** The (P) component is the proportional gain constant and defines the period and magnituted of the step response, it steer the car proportional to the CTE and help us to minimize the error between CTE and the Steer Value is determined by the constant Kp.
 
 **Integral or I Control:** The Integral (I) component of the controller produces an output response which is the summation of the current cte and previous values of cte(s) since the start to the current time step. The output response is adjusted by the integral gain constant, Ki. Therefore integral component tends to make the car go in circles because of accumulation of cte over time.
 
-**Differential or D Control:** The derivative (D) component of the controller produces an output response which depends on the rate of change of cte.The output response is adjusted by the derivative gain constant, Kd. Therefore derivative component tends to counteract the overshoot of the car caused by the proportional component.
+**Differential or D Control:** The Differentiale (D) component of the controller produces an output response which depends on the rate of change of cte.The output response is adjusted by the derivative gain constant, Kd. Therefore derivative component tends to counteract the overshoot of the car caused by the proportional component.
 
 ## Hyperparameters
 
